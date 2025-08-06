@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+body{
+   
+      /* justify-content: center; horizontal alignment */
+  /* align-items: center;  */
+  background-color: rgba(117, 11, 11, 0.68);
+}
+#name{
+
+    width:50vw;
+    /* background-color: pink; */
+    height:15vh;
+    font-size:80px;
+     /* font-family: "Caveat", cursive; */
+       font-family: "Caprasimo", serif;
+       font-weight: 100;
+       /* margin-top:vh; */
+       color:rgb(245, 239, 239);
+      
+}
+#name>#title{
+    color:black;
+}
+#button{
+    height:8vh;
+    width:8vh;
+    background-color:rgba(115, 27, 27, 0.614);
+    margin-left:1vw;
+    /* display:flex;
+    justify-content: space-around;  */
+    padding-top:1%;
+    border-radius:10%;
+}
+.line{
+   background-color: black;
+   margin-top: 10%;
+   height: 20%;
+   width: 100%;
+   display:block;
+   border-radius: 20% ;
+}
