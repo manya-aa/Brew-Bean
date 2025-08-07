@@ -4,16 +4,19 @@
     
 }
 body{
-   
+   height:100%;
+   display:flex;
+   flex-direction: column;
       /* justify-content: center; horizontal alignment */
   /* align-items: center;  */
   background-color: rgba(117, 11, 11, 0.68);
 }
+
 #name{
 
     width:50vw;
     /* background-color: pink; */
-    height:15vh;
+    height:200vh;
     font-size:80px;
      /* font-family: "Caveat", cursive; */
        font-family: "Caprasimo", serif;
@@ -42,4 +45,32 @@ body{
    width: 100%;
    display:block;
    border-radius: 20% ;
+}
+#list{
+
+    background-color: red;
+    height:200vh;
+    width:50vw;
+    position:relative;
+    margin-left:auto;
+    
+}
+footer{
+    text-align: center;
+    /* position: absolute; */
+    bottom:0px;
+    left:40vw;
+}
+footer > div{
+font-size:20px;
+color:black;
+
+    /* text-align:center; */
+}
+#wrap{
+    flex:1;
+}
+content{
+    display:flex;
+    flex-direction:row;
 }
