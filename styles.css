@@ -47,13 +47,15 @@ body{
    border-radius: 20% ;
 }
 #list{
-
-    background-color: red;
+    /* background-color: red; */
     height:200vh;
     width:50vw;
     position:relative;
     margin-left:auto;
-    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 footer{
     text-align: center;
@@ -73,4 +75,45 @@ color:black;
 content{
     display:flex;
     flex-direction:row;
+}
+.coffee{
+width:75%;
+height:25%;
+background-color: black;
+border-radius:20px;
+position: relative;
+overflow: hidden;
+display: flex;
+flex-direction: row;
+}
+.coffee button {
+  
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 5px;
+}
+.coffee button:hover {
+    background-color: white;
+}
+.brew{
+height:100%;
+width:100%;
+position:absolute;
+border-radius: 20px;
+transition: 1s;
+}
+.coffee #prev{
+    left:10px;
+
+}
+.coffee #next{
+    right:10px;
 }
